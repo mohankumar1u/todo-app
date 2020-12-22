@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.18.4",
+    "npm": "6.14.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
@@ -23,6 +27,7 @@
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "https": "^1.0.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "yay": "^0.1.0"
   }
 }
